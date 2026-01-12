@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Smart Attendance System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Smart Attendance System</h1>
+
+    <div class="add-student">
+        <input type="text" id="studentName" placeholder="Student Name">
+        <button onclick="addStudent()">Add Student</button>
+    </div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Present</th>
+                <th>Absent</th>
+                <th>Attendance %</th>
+            </tr>
+        </thead>
+        <tbody id="studentTable"></tbody>
+    </table>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
